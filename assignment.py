@@ -20,3 +20,4 @@ def main():
    
     print("sum of list: " + listSum(nums))
     print("product of list: " + listProd(nums))
+    print("reversed list: " + revList(nums))
