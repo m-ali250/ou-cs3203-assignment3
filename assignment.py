@@ -7,6 +7,10 @@ def listProd(self, nums):
         result = result * i
     return result
 
+def revList(self, nums):
+    return nums.reverse()
+
+
 def main():
     lSize = int (input ("Enter size of list: "))
     list = []
@@ -14,5 +18,6 @@ def main():
         element = int(input())
         list.append(element)
    
-    print("sum of list: " + listSum)
-    print("product of list: " + listProd)
+    print("sum of list: " + listSum(nums))
+    print("product of list: " + listProd(nums))
+    print("reversed list: " + revList(nums))
