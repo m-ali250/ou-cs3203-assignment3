@@ -7,6 +7,8 @@ def listProd(self, nums):
         result = result * i
     return result
 
+
+
 def revList(self, nums):
     return nums.reverse()
 
